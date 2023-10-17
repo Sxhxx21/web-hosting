@@ -1,0 +1,101 @@
+body {
+    background-color: #465672;
+    }
+    .center {
+    display: block;
+    margin: auto;
+    margin-top: 0%;
+    width: 80%;
+    }
+    .navv li{
+    color: white;
+    }
+    .navv-item:hover li{
+    color: bisque
+    }
+    .row {
+    display: flex;
+    }
+    .column {
+    flex: 33.33%;
+    padding: 5px;
+    }
+    .column img{
+    height: 200px;
+    width: 270px;
+    border-radius: 10px;
+    }
+    h1{
+    font-size: 40px;
+    color: white;
+    text-shadow:2px 2px orange;
+    margin-left: 20px;
+    text-align: center;
+    }
+    p{
+    color: white;
+    }
+    p:hover{
+    color:darkorange;
+    }
+    h2{
+    color: darkorange;
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+    li {
+    float: left;
+    color: white;
+    }
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    li a:hover {
+    background-color: #111;
+    }
+    .orng{
+    color: darkorange;
+    }
+    .container{
+    border: 2px solid black;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: black;
+    width: 80%;
+    border-radius: 20px;
+    }
+    .input{
+    border: 2px black;
+    margin: auto;
+    margin-left: 40%;
+    }
+    .form{
+    padding-top: 2%;
+    background-color: darkslategrey;
+    }
+    .subscribe{
+    color:white;
+    background-color: darkorange;
+    }
+    .subscribe:hover{
+    color: darkorange;
+    background-color: white;
+    }
+    .quick{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+    }
+    .sale{
+    text-align: center;
+    }
